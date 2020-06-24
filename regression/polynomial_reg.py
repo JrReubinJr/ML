@@ -31,7 +31,7 @@ plt.plot(x, poly_reg_model.predict(x_poly), color='blue')
 plt.title("Truth or Bluff (Poly Regression)")
 plt.xlabel("Position Level")
 plt.ylabel("Salary")
-#plt.show()
+plt.show()
 
 
 # Splitting the dataset into the Training set and Test set
